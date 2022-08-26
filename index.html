@@ -6,34 +6,107 @@
             germaine self-bio
         </title>
     
-        <style>
-            h1, h2, p, div 
-            {text-align: center;}
-
-            h1 
-            {background-color: rgb(208, 171, 208); 
-                font-size: 3em;}
-
-            img 
-            {height: 20em;}
-
+        <style>            
+        
             body 
-            {background-color: rgb(255, 250, 250);}
+            {
+                background-color: rgb(255, 250, 250);
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+            #intro {
+                position: fixed;
+                height: 10%;
+                width: 100%;
+                display: block;
+                background-color: cornflowerblue;
+                text-align: center;
+                border: 3px dashed black;
+                top: 0;
+                left: 0;
+                z-index: 2;
+                overflow-y: hidden;
+            }
+
+            h1 {
+                padding: auto;
+            }
+
+            #sidebar {
+                display: block;
+                width: 300px;
+                position: fixed;
+                height: 100%;
+                background-color: cadetblue;
+                overflow-x: hidden;
+                top: 0;
+                left: 0;
+                z-index: 1;  /* sends to back | 1 will be the most back */ 
+
+            }
+
+
+            img
+            {
+                height:50%;
+                display: inline-block;
+            }
+
+            iframe {
+
+                width: 50%;
+                height: 60%;
+
+            }
+
+            #contents {
+                margin-left: 320px;
+                padding-top: 80px;
+            
+            }
+
+            
+
+
+
+
         </style>
     </head>
 
     <body>
-        <h1>Self Biography</h1>
 
-        <h2>Hello, My name is Germaine!</h2>
+        <div id="intro">
+            <h1>WELCOME</h1>
+        </div>
+        
 
-        <div>
-            <img src="./img/photo_2022-08-16_15-26-53.jpg"></img>
+        <div id="sidebar"></div>
 
-            <img src="./img/photo_2022-08-16_15-27-00.jpg"></img>
+        <div id="contents">
+            <h2>Hello! My Name is Germaine :></h2>
+            <div id="image">
+                <img src="./img/photo_2022-08-16_15-26-53.jpg"></img>
+
+                <img src="./img/photo_2022-08-16_15-27-00.jpg"></img>
+            </div>
+
+            <div id="self-bio">
+                <h2>Self-Biography</h2>
+
+                <p>I am currently a second-year Information Systems student at Singapore Management University. Intrigued by how lines of code could transform a website, I aspire to be a web developer who will be remembered for bringing designs to life. </p>
+            </div>
+
+            <div id="travel-video">
+                <h2>Here's a YouTube video on a country that I wish to travel to! </h2>
+
+                <iframe src="https://www.youtube.com/embed/cAwgm6WtiUM?autoplay=1&mute=1" allow="accelerometer;" allowfullscreen></iframe>
+
+            </div>
         </div>
 
-        <p>I am currently a second-year Information Systems student at Singapore Management University. Intrigued by how lines of code could transform a website, I aspire to be a web developer who will be remembered for bringing designs to life. </p>
+        
+
+        
     </body>
 
 </html>
