@@ -1,0 +1,40 @@
+body 
+{
+    background-color: rgb(255, 250, 250);
+}
+
+#intro {
+    background-image: url(img/photo_2022-09-27_19-41-45.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.items {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+}
+
+.item {
+  width: 50rem;
+}
+
+.item > img {
+  height: 100px;
+}
+
+iframe {
+  height: 70vh;
+}
+
+#intro, #aboutme, #places {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
