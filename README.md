@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-I'm a student with a strong passion for databases and a keen interest in tackling complex backend challenges. Currently on a learning journey, I'm eager to contribute and explore the fascinating world of backend development. Let's connect and learn together!
+I'm a student with a strong passion for databases and a keen interest in tackling complex backend challenges. I'm eager to contribute and explore the fascinating world of backend development. Let's connect and learn together!
 
 <div align=center>
 <a href="https://www.linkedin.com/in/germaine-tan-109531173/"><img src="/img/linkedin.png" alt="linkedin" style="width:42px;height:42px;"></a>
